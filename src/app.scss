@@ -1,0 +1,26 @@
+html{
+    scroll-snap-type: y mandatory; //Enables vertical scroll snapping
+    scroll-behavior: smooth; //Gives a smooth scrolling effect
+}
+
+*{
+    margin: 0; //Removes default margin
+    padding: 0; //Removes default padding
+    box-sizing: border-box; //Includes padding and border in element's total width and height
+    font-family: "DM Sans", sans-serif; //Sets a default font family
+}
+
+body{
+    background-color: #0c0c1d;
+    color: lightgray;
+}
+
+a{
+    text-decoration: none; //Removes underline from links
+    color: inherit; //Inherits color from parent element
+}
+
+section{
+    height: 100vh; //Gives each section the full height of the viewport
+    scroll-snap-align: center; //Centers each section in the viewport when snapped
+} 
