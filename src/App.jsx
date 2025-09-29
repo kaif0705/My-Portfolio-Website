@@ -3,6 +3,7 @@ import { Cursor } from './Components/Cursor/Cursor';
 import { Hero } from './Components/Hero/Hero';
 import { Navbar } from './Components/Navbar/NAvbar';
 import { Parallax } from './Components/Parallax/Parallax';
+import Portfolio from './Components/Portfolio/Portfolio';
 
 const App = () => {
   return(
@@ -16,9 +17,7 @@ const App = () => {
         <section id='Services'><Parallax type="services"/></section>
         <section>Services</section>
         <section id='Portfolio'><Parallax  type="portfolio"/></section>
-        <section>Portfolio1</section>
-        <section>Portfolio2</section>
-        <section>Portfolio3</section>
+        <Portfolio />
         <section id='Contact'>Contact</section>
       </div>
     </>
